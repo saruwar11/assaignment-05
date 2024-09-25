@@ -26,7 +26,7 @@ document.getElementById('btn1').addEventListener("click",function(){
             const entry=document.getElementById('history-container')
             const historyItem=document.createElement('div')
             historyItem.className=
-            "text-xl bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
+            "lg:text-xl sm:text-sm  bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
             historyItem.innerHTML=`
             <p>${inputText} tk ${text})</p>
             <p>${new Date().toLocaleDateString()}</p>
@@ -66,7 +66,7 @@ document.getElementById('btn2').addEventListener("click",function(){
              const entry=document.getElementById('history-container')
              const historyItem=document.createElement('div')
              historyItem.className=
-             "text-xl bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
+             "lg:text-xl sm:text-sm  bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
              historyItem.innerHTML=`
              <p>${inputText} tk ${text})</p>
              <p>${new Date().toLocaleDateString()}</p>
@@ -105,7 +105,7 @@ document.getElementById('btn3').addEventListener("click",function(){
             const entry=document.getElementById('history-container')
             const historyItem=document.createElement('div')
             historyItem.className=
-            "text-xl bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
+            "lg:text-xl sm:text-sm  bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
             historyItem.innerHTML=`
             <p>${inputText} tk ${text})</p>
             <p>${new Date().toLocaleDateString()}</p>

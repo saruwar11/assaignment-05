@@ -8,7 +8,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-
+    <header>
+        <nav class=" w-full bg-white shadow-lg fixed top-0 bg-opacity-50">
+        <div class=" flex justify-between bg-orange-100 px-8  items-center py-2">
+            <button id="blog-btn" class="bg-gray-500 py-3 rounded-lg px-5 font-bold text-white ">Blog</button>
+            <div class="flex justify-center items-center gap-2">
+                <img src="./assats/logo.png" alt="">
+                <h1>Donate Bangladesh</h1>
+            </div>
+            <div class="flex justify-center items-center gap-2">
+                <img src="./assats/coin.png" alt="">
+                <h1><span id="total-balance">5000</span> BDT</h1>
+            </div>
+        </div>
+        <div class="w-64 mx-auto mb-4 mt-8">
+            <button  id="donation-btn"  class="p-3 rounded-md border-solid border border-slate-400 text-xl  font-semibold  w-28 bg-green-500 text-white">Donation</button>
+            <button  id="history-btn" class="p-3 rounded-md border border-solid border-slate-400 text-xl text-gray-500   font-semibold  w-28 " >History</button>
+        </div> 
+        </nav>
+    </header>
 
 
     <script src="./js/home.js"></script>

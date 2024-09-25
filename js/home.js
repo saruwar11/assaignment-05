@@ -28,7 +28,7 @@ document.getElementById('btn1').addEventListener("click",function(){
             historyItem.className=
             "text-xl bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
             historyItem.innerHTML=`
-            <p>${inputText} ${text})</p>
+            <p>${inputText} tk ${text})</p>
             <p>${new Date().toLocaleDateString()}</p>
             `
             entry.insertBefore(historyItem,entry.firstChild)
@@ -68,7 +68,7 @@ document.getElementById('btn2').addEventListener("click",function(){
              historyItem.className=
              "text-xl bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
              historyItem.innerHTML=`
-             <p>${inputText} ${text})</p>
+             <p>${inputText} tk ${text})</p>
              <p>${new Date().toLocaleDateString()}</p>
              `
              entry.insertBefore(historyItem,entry.firstChild)
@@ -107,7 +107,7 @@ document.getElementById('btn3').addEventListener("click",function(){
             historyItem.className=
             "text-xl bg-white rounded-lg shadow-lg my-2 p-8 w-10/12 mx-auto"
             historyItem.innerHTML=`
-            <p>${inputText} ${text})</p>
+            <p>${inputText} tk ${text})</p>
             <p>${new Date().toLocaleDateString()}</p>
             `
             entry.insertBefore(historyItem,entry.firstChild)
